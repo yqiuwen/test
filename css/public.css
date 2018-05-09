@@ -1,0 +1,94 @@
+.clearfix:before,
+.clearfix:after {
+    display: table;
+    content: "";
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix:after {
+    *zoom: 1;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.w {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.gradient {
+    background: -moz-linear-gradient(top, #FFFFFF, #f8f8f8);
+    background: -webkit-linear-gradient(top, #FFFFFF, #f8f8f8);
+    background: -ms-linear-gradient(top, #FFFFFF, #f8f8f8);
+    background: linear-gradient(top, #FFFFFF, #f8f8f8);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#FFFFFF, endColorstr=#f8f8f8)";
++ background: #f9f9f9;
+}
+
+.box-sizing {
+    box-sizing: border-box;
+}
+
+#search,
+.section,
+.side_section {
+    border-radius: 6px;
+    border: 1px solid #dbdbdb;
+    padding: 0 12px;
+}
+
+#search,
+.section,
+.main_ad,
+.side_login,
+.side_ad,
+.side_section {
+    margin-bottom: 10px;
+}
+
+.main_wrap {
+    padding-bottom: 10px;
+}
+
+/*三角形*/
+.triangle_up,
+.triangle_down_red,
+.triangle_down_gray {
+    width: 0;
+    height: 0;
+    position: absolute;
+    overflow: hidden;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    -ms-border-left: 4px solid transparent;
+    -ms-border-right: 4px solid transparent;
+}
+
+.activity,
+.recommend {
+    width: 348px;
+    border-radius: 6px;
+    border: 1px solid #dbdbdb;
+    padding-left: 12px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+.hide {
+    display: none;
+}
+.show {
+    display: block;
+}
+.bgc {
+    background: #000;
+}
+
